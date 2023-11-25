@@ -6,4 +6,5 @@ Made for my own use, I don't take responsibility for any damage done to your com
 Edit wizardDir variable so that it points to directory containing installers.
 
 # Changing default installation directory
-Edit HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion ProgramFilesDir and ProgramFilesDir(x86) registry keys so that they point to your desired install location.  
+Edit HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion ProgramFilesDir and ProgramFilesDir(x86) registry keys so that they point to your desired install location.
+Make sure to restore it back to original after installing programs to avoid problems with OS
