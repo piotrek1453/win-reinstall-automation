@@ -1,4 +1,3 @@
-$installDir = 'C:\test'
 $wizardDir = 'D:\reinstal\instalki\test'
 
 $wizardList = Get-ChildItem -Path $wizardDir -File 
